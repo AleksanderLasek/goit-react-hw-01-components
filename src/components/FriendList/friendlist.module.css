@@ -1,0 +1,62 @@
+body {
+  background-color: #e7ecf2;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+}
+
+.friendlist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 350px;
+  padding: 0;
+  margin-top: 40px;
+}
+
+.item {
+  width: 250px;
+  height: 70px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 15px;
+  box-shadow: 0px 3px 7px -1px rgba(66, 68, 90, 1);
+  background-color: white;
+}
+
+.status_online {
+  display: inline-block;
+  background-color: green;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.status_offline {
+  background-color: red;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.avatar {
+  width: 52px;
+  height: 52px;
+  margin-left: 10px;
+  box-shadow: 0px 1px 3px -2px rgba(66, 68, 90, 1);
+}
+
+.name {
+  margin-left: 15px;
+  font-size: 23px;
+}
